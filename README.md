@@ -1,4 +1,4 @@
-# PhpStorm/WebStorm Горячие клавиши.
+# WebStorm Горячие клавиши.
 
 Список самых часто-используемых горячих клавиш для IDE [PhpStorm](https://www.jetbrains.com/phpstorm/)/[WebStorm](https://www.jetbrains.com/webstorm/). Можно забирайте себе(Fork) или добавляйте в избранное(Star).
 Эта страница написана специально в дополнение к моему курсу по обзору данных редакторов на сайте сообщества сообщества [Loftblog](http://loftblog.ru/material/1-ustanovka-pervye-shagi/) и на [YouTube](https://www.youtube.com/playlist?list=PLY4rE9dstrJzAnXFt9m48Q0V5_2kVK1Qt) канале.
