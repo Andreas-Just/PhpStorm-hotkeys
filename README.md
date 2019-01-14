@@ -36,9 +36,12 @@
 | Move Line Down | `ALT + Shift + down` | `ALT + Shift + down`  | Переместить текущую строку на одну строку вниз |
 | Line comment | `CMD + /` | `Ctrl + /`  |  Добавить строчный комментарий |
 | Block comment | `Ctrl + Shift + /` | `Ctrl + Shift + /`  | Добавить блочный комментарий |
-| Reformat code | `CMD + ALT + L` | `Ctrl + ALT + L`  | Восстанавливает форматирование кода, согласно настройкам |
+| Reformat code | `CMD + ALT + L` | `Ctrl + ALT + L`  | Быстрое форматирование “грязного” кода, согласно настройкам |
 | Multi select | ` ` | `ALT + Click`  | Множественный курсор (по одному) |
 | Multi select all | `ALT + Click` | `ALT + J + Click`  | Множественный курсор (нажать и немного подержать - выделит все вхождения) |
+| Deselect | ` ` | `ALT + Shift + J`  | Отменяет выделение |
+| Multi select all identical code | `ALT + CMD + Shift + J` | `ALT + Ctrl + Shift + J`  | Выделяет все идентичные куски кода |
+| Highlight whole word | `CMD + Shift + left|right` | `Ctrl + Shift + left|right`  | Выделяет все слово целиком |
 | Last Edition Location | `CMD + Shift + Backspace` | `Ctrl + Shift + Backspace`  | Вернуться к предыдущему месту редактирования |
-| Rename | `CMD + F6` |  ` ` | Умное переименовывание переменной/атрибута с заменой по проекту |
+| Rename | `Shift + F6` |  `Shift + F6` | Умное переименовывание переменной/атрибута с заменой по проекту |
 | Surround with | `CMD + ALT + T` |  ` ` | Оборачивание выделенного кода, в выбраное выражение* |
