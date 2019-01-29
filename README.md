@@ -45,3 +45,4 @@
 | Last Edition Location | `CMD + Shift + Backspace` | `Ctrl + Shift + Backspace`  | Вернуться к предыдущему месту редактирования |
 | Rename | `Shift + F6` |  `Shift + F6` | Умное переименовывание переменной/атрибута с заменой по проекту |
 | Surround with | `CMD + ALT + T` |  ` ` | Оборачивание выделенного кода, в выбраное выражение* |
+| Comment block | ` ` |  ` /** + Enter ` | Коммент блоки для функций  |
