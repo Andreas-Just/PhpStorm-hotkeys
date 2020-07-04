@@ -1,51 +1,39 @@
-# WebStorm Горячие клавиши.
+# Useful commands
 
-Список самых часто-используемых горячих клавиш для IDE [PhpStorm](https://www.jetbrains.com/phpstorm/)/[WebStorm](https://www.jetbrains.com/webstorm/). Можно забирайте себе(Fork) или добавляйте в избранное(Star).
-Эта страница написана специально в дополнение к моему курсу по обзору данных редакторов на сайте сообщества сообщества [Loftblog](http://loftblog.ru/material/1-ustanovka-pervye-shagi/) и на [YouTube](https://www.youtube.com/playlist?list=PLY4rE9dstrJzAnXFt9m48Q0V5_2kVK1Qt) канале.
-Сочетания клавиш указаны установленные по умолчанию. Посмотреть назначенные и изменить их можно в меню Preferences > Keymap.
-Сочетания клавишь для Windows взяты с просторов интернета. Сам я работаю на Mac и проверить могу только на этой системе. Если Вы найдете ошибки, пожалуйста отправляйте запрос на исправление через GitHub(Pull request) или пишите в комментариях к видео. 
+## Git
 
+| Command | Description | 
+| ------- | ----------- |
+| `git clone repo_url` | clones an existing repo |
+| `git init` | initializes new git repo in current folder |
+| `git status` | shows info about the repo |
+| `git branch` | shows a list of all the local branches |
+| `git branch branch_name`  | creates a new `branch_name` branch |
+| `git checkout branch_name` | switch to selected `branch_name` |
+| `git checkout -b branch_name` | creates a branch and switches to it |
+| `git remote`| shows a list of remote servers |
+| `git remote show server_alias` | shows the detailed info about a server |
+| `git remote add server_alias repo_url` | adds a new alias for a server with given `repo_url` |
+| `git remote remove server_alias` | disconnects from a server |
+| `git add ./path/to/files` | prepares changes for saving |
+| `git commit -m 'a commit message'` | saves the changes |
+| `git commit -am 'a commit message'` | add all changed files and saves the changes |
+| `git push server_alias branch_name` | sends the `branch_name` to `server_alias` |
+| `git fetch server_alias branch_name` | downloads the changes without merging them to local branch |
+| `git pull server_alias branch_name` | downloads and merges changes |
+| `git log` | shows the commits history |
+| `git rm --cached` | exclude file from the tracking area |
+  
+## NPM
 
-## Общие
-
-| Команда | Mac OS X | Windows/Linux | Description |
-| ------- | -------- | ------- | ----------- |
-| Preferences/Settings | `CMD + ,` | `Ctrl + Alt + S`  | Открыть настройки программы |
-| Switch tabs | `Ctrl + Tab` | `Ctrl + Tab`  | Переключение между открытыми вкладками |
-| Search | `Double Shift` | `Double Shift`  | Открыть окно поиска по проекту  |
-| New | `CMD + N` | `Ctrl + N`  | Создать новый файл/Директорию |
-| Save | `CMD + S` | `Ctrl + S`  | Сохранить изменения в текущем файле |
-| Save As | `CMD + Shift + S` | `Ctrl + Shift + S`  | Сохранить изменения в файле с новым именем |
-| Close Tab | `CMD + W` |  `Ctrl + F4` | Закрыть текущую вкладку |
-| Find in Path | `CMD + Shift + F` |  `Ctrl + Shift + F` | Поиск по всему проекту |
-| Close others | ` ` |  `Ctrl + ALT + Shift + Home` | Закрыть все окна, кроме текущего  |
-| Close all | ` ` |  `Ctrl + ALT + Shift + End` | Закрыть все окна  |
-
-
-
-## Редактирование
-
-| Команда | Mac OS X | Windows/Linux | Description |
-| ------- | -------- | ------- | ----------- |
-| Find | `CMD + F` | `Ctrl + F`  | Поиск по файлу  |
-| Replace | `CMD + R` | `Ctrl + R`  | Замена найденных символов  |
-| Duplicate Lines | `CMD + D` | `Ctrl + D` | Создать дубликат текущей строки |
-| Safe Delete | `CMD + Backspace` | `Ctrl + Y` | Удаление всей текущей строки |
-| Select block | `ALT + up` | `Ctrl-W`  | Выделить блок кода (слово/строка/документ)|
-| Move Block Up | `CMD + Shift + up` | `Ctrl + Shift + up`  | Переместить текущий блок кода вверх, на место предыдущего блока кода |
-| Move Block Down | `CMD + Shift + down` | `Ctrl + Shift + down`  | Переместить текущий блок кода вниз, на место следующего блока кода |
-| Move Line Up | `ALT + Shift + up` | `ALT + Shift + up`  | Переместить текущую строку на одну строку вверх |
-| Move Line Down | `ALT + Shift + down` | `ALT + Shift + down`  | Переместить текущую строку на одну строку вниз |
-| Line comment | `CMD + /` | `Ctrl + /`  |  Добавить строчный комментарий |
-| Block comment | `Ctrl + Shift + /` | `Ctrl + Shift + /`  | Добавить блочный комментарий |
-| Reformat code | `CMD + ALT + L` | `Ctrl + ALT + L`  | Быстрое форматирование “грязного” кода, согласно настройкам |
-| Multi select | ` ` | `ALT + Click`  | Множественный курсор (по одному) |
-| Multi select all | `ALT + Click` | `ALT + J + Click`  | Множественный курсор (нажать и немного подержать - выделит все вхождения) |
-| Deselect | ` ` | `ALT + Shift + J`  | Отменяет выделение |
-| Multi select all identical code | `ALT + CMD + Shift + J` | `Ctrl + ALT + Shift + J`  | Выделяет все идентичные куски кода |
-| Highlight whole word | `CMD + Shift + [left, right]` | `Ctrl + Shift + [left, right]`  | Выделяет все слово целиком |
-| Last Edition Location | `CMD + Shift + Backspace` | `Ctrl + Shift + Backspace`  | Вернуться к предыдущему месту редактирования |
-| Rename | `Shift + F6` |  `Shift + F6` | Умное переименовывание переменной/атрибута с заменой по проекту |
-| Surround with | `CMD + ALT + T` |  ` ` | Оборачивание выделенного кода, в выбраное выражение |
-| Comment block | ` ` |  ` /** + Enter ` | Коммент блоки для функций |
-| Change case | ` ⇧ + ⌘ + U ` |  ` Ctrl + Shift + U ` | Для форматирования текущего слова в верхний или нижний регистр |
+| Command | Description | 
+| ------- | ----------- |
+| `npm init` | creates `package.json` |
+| `npm install`, `npm i` | installs all the `dependencies` and `devDependencies` |
+| `npm run ...` runs a command from `scripts` section of `package.json` |
+| `npm run start`, `npm start` | usually the main command to run the project |
+| `npm run test`, `npm test` | a command running tests if present |
+| `npm run lint` | checks the code style |
+| `npm run test:only` | runs tests |
+| `npm run test` | runs linter and tests |
+| `npm run deploy` | deploys the website to the hosting (Github) |
