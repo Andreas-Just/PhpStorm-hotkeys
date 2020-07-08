@@ -20,7 +20,7 @@
 | Find in Path | `CMD + Shift + F` |  `Ctrl + Shift + F` | Поиск по всему проекту |
 | Close others | ` ` |  `Ctrl + ALT + Shift + Home` | Закрыть все окна, кроме текущего  |
 | Close all | ` ` |  `Ctrl + ALT + Shift + End` | Закрыть все окна  |
-
+| Search by project | ` ` |  `Ctrl + Shift + F` | Искать по проекту или директории  |
 
 
 ## Редактирование
