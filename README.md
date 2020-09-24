@@ -37,3 +37,4 @@
 | `npm run test:only` | runs tests |
 | `npm run test` | runs linter and tests |
 | `npm run deploy` | deploys the website to the hosting (Github) |
+| `npm ls --depth=0 -g` | list packages installed globally |
